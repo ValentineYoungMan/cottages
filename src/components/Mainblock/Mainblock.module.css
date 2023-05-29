@@ -1,0 +1,31 @@
+.mainblock{
+    height: 100vh;
+    background: url('./../../assets/img/cover.png')  center / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.mainblock__container{
+    width: 1170px;
+    margin: 0 auto;
+  
+}
+.mainblock__title{
+    font-size: 100px;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+.mainblock__text{
+    font-size: 19px;
+    color: #bababa;
+    margin-bottom: 50px;
+}
+.mainblock__button{
+    font-size: 15px;
+    color: #23262d;
+    background-color: #cee002;
+    border: 0px;
+    padding: 18px 30px;
+    font-weight: 700;
+}
